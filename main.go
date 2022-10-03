@@ -48,5 +48,5 @@ func main() {
 		log.Fatal(err)
 	}
 
-	log.Println(string(body), "successfully changed")
+	log.Println(string(body))
 }
